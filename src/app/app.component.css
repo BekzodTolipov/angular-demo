@@ -1,3 +1,43 @@
 .nav-link {
   font-size: large;
 }
+
+#logo {
+  margin-bottom: 50%;
+}
+
+#sidebarContent {
+  margin-top: 50%;
+  text-align: center;
+}
+
+a {
+  
+  color: black;
+}
+
+#sidebar {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh;
+  background-color: #F1F2F2;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+#facebook {
+  margin-right: 2%;
+}
+
+.social-media {
+  text-align: center;
+  margin-right: 40px;
+}
+
+#products-list {
+  width: 100%;
+}

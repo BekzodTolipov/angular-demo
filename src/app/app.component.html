@@ -1,7 +1,27 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    {{pageTitle}}!!
-  </h1>
-  <pm-products></pm-products>
+<div class="wrapper">
+  <!-- Sidebar -->
+  <nav id="sidebar">
+    <div id="sidebarContent" >
+      <ul class="list-unstyled components">
+          <p id="logo"> LOGO </p>
+          <li>
+              <a href="#">About</a>
+          </li>
+          <li>
+              <a href="#">Shop</a>
+          </li>
+          <li>
+              <a href="#">Resources</a>
+          </li>
+      </ul>
+    </div>
+    <ul class="social-media">
+      <i id=facebook class="fab fa-facebook-square"></i>
+      <i id=instagram class="fab fa-instagram-square"></i>
+    </ul>
+  </nav>
+
+  <pm-products id="products-list"></pm-products>
+
 </div>
