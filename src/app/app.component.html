@@ -6,13 +6,13 @@
       <ul class="list-unstyled components">
           <p id="logo"> LOGO </p>
           <li>
-              <a href="#">About</a>
+              <a [routerLink]="['/welcome']">About</a>
           </li>
           <li>
-              <a href="#">Shop</a>
+              <a [routerLink]="['/products']">Shop</a>
           </li>
           <li>
-              <a href="#">Resources</a>
+              <a [routerLink]="['/resources']">Resources</a>
           </li>
       </ul>
     </div>
@@ -22,6 +22,8 @@
     </ul>
   </nav>
 
-  <pm-products id="products-list"></pm-products>
+  <div id="products-list">
+    <router-outlet></router-outlet>
+  </div>
 
 </div>

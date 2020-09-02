@@ -1,6 +1,6 @@
-.nav-link {
+/* .nav-link {
   font-size: large;
-}
+} */
 
 #logo {
   margin-bottom: 50%;
@@ -36,8 +36,4 @@ a {
 .social-media {
   text-align: center;
   margin-right: 40px;
-}
-
-#products-list {
-  width: 100%;
 }
